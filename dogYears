@@ -1,0 +1,9 @@
+var dogAge : Int = 5
+// This version of the program is only for dogs older than 2 years old.
+var earlyYears = 21
+//The first two years of a dog’s life count as 21 human years.
+var laterYears = (dogAge-2)*4
+//Each following year counts as 4 human years.
+var humanYears = earlyYears + laterYears
+// this is the totl number of years
+print("My name is Paul! Ruff ruff, I am \(humanYears) years old in human years ")
